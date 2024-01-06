@@ -10,6 +10,7 @@
 }
 
 body{
+    overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
     background: #000000;
     color: #999999;
@@ -43,7 +44,7 @@ img{
 }
 
 .showcase{
-    width: 100%;
+
     height: 100vmin;
     position: relative;
     background: url("1.jpg") no-repeat center center/cover;
@@ -281,6 +282,9 @@ img{
     padding-left: 5vmax;
     padding-right: 20px;
 }
+.desc-3 h3{
+    padding-right: 10vmin;
+}
 
 .card-3 img{
     width: 110%;
@@ -385,7 +389,11 @@ img{
 .footer li{
     line-height: 2.4;
 }
+
 @media only screen and (max-width: 960px) {
+    .footer{
+        margin-top: 0%;
+    }
     
     .card-1 video{
         position: absolute;
@@ -408,6 +416,7 @@ img{
     .showcase-content{
         height: 10%;
         margin-bottom: 0%;
+        
     }
     .card-0{
         margin-left: 0%;
@@ -456,15 +465,27 @@ img{
     .card-3 .desc-3{
         padding-left: 0%;
     }
-
+.desc-3 h3{
+    padding-right: 0vmin;
+}
+.card-3 img{
+    padding-top: 100vmin;
+    width: 70vmin;
+    position:  absolute;
+    padding-left: 4vmin;
+}
 .card-3 .video-2{
     padding-right: 100vmin;
-    padding-bottom: 100vmin;
-    width: 50vmin;
-    position: relative;
+ padding-bottom: 0%;
+ padding-top: 69vmin;
+ padding-left: 0vmin;
+ margin-bottom: 50vmin;
+    width: 45vmin;
+    position: absolute;
+
 }
 .lastsec{
-    margin-top: 0%;
+    margin-top: 70%;
 }
     .card-3{
         display: flex;
